@@ -1,0 +1,23 @@
+.db-nav {
+  background-color: white;
+  color: var(--b-light);
+  border-bottom: var(--border-light);
+  box-shadow: var(--shadow-light);
+
+  &__container {
+    max-width: 100rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+  }
+
+  &__links-c {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+}
